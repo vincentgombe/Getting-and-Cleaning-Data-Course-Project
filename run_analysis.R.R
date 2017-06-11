@@ -138,7 +138,7 @@ tidyDataAve <- as.data.table(meanStdData) %>%
 											arrange(subjectid,activityid)
 
 #write data set
-write.table(tidyDataAve ,file="./tidyDataAve.txt")
+write.table(tidyDataAve ,file="./tidyDataAve.txt",row.name = FALSE)
 	
 		
 
